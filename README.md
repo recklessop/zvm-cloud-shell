@@ -35,13 +35,11 @@
   <h3 align="center">ZVM Cloud Shell</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome docker based PowerShell platform with Zerto PowerShell module preinstalled!
     <br />
     <a href="https://github.com/recklessop/zvm-cloud-shell"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/recklessop/zvm-cloud-shell">View Demo</a>
-    ·
     <a href="https://github.com/recklessop/zvm-cloud-shell/issues">Report Bug</a>
     ·
     <a href="https://github.com/recklessop/zvm-cloud-shell/issues">Request Feature</a>
