@@ -79,16 +79,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://jpaul.me)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Have you ever wanted to run a quick one-liner command, or do some automation against the Zerto PowerShell interface, only to realize you have an outdated version of PowerShell, or you don't have the Zerto PS Module installed on your machine? Wouldn't it be easier to have all the scripting tools installed on a dedicated platform where they don't interfere with your desktop? Wouldnt it be great to access it all without installing any software?
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Of course it would! This cloud shell style docker container does just that. It starts life as the standard Microsoft Powershell container based on Ubuntu, then I add GoTTY as well as the Zerto PowerShell Module. From there all you need to do is run the docker-compose and access the web terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
