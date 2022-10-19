@@ -217,4 +217,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/recklessop/zvm-cloud-shell/stargazers
 [issues-shield]: https://img.shields.io/github/issues/recklessop/zvm-cloud-shell.svg?style=for-the-badge
 [issues-url]: https://github.com/recklessop/zvm-cloud-shell/issues
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: screenshot.png
