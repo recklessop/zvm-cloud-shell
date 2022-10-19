@@ -91,11 +91,13 @@ Of course it would! This cloud shell style docker container does just that. It s
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 * Docker
 * PowerShell
 * GoTTY
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
