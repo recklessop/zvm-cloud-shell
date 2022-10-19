@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+  zvmshell:
+    build: ./
+    image: 'zertoshell:1.0.953'
+    restart: always
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    restart: always
+    ports:
+      - '5678:8080'
+    volumes:
+      - './mydata:/zertoshell'
+    environment:
+      - 'password=myzvmpassword'
