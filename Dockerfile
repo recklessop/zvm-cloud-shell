@@ -9,7 +9,7 @@ COPY ./entrypoint.sh /
 WORKDIR /
 
 RUN pwsh -Command Install-Module -Name Zerto.Zvm.Commandlets -RequiredVersion $ZERTOPSVERSION -Force
-
+RUN pwsh -Command Install-Module -Name ZertoApiWrapper -RequiredVersion 1.5.3 -Force
 RUN wget -c https://github.com/yudai/gotty/releases/download/v2.0.0-alpha.3/gotty_2.0.0-alpha.3_linux_amd64.tar.gz -O - | tar -xz
 
 WORKDIR /zertoshell
