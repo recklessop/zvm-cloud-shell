@@ -1,3 +1,5 @@
+MAINTAINER justin@jpaul.me
+
 FROM mcr.microsoft.com/powershell:ubuntu-22.04
 
 ENV ZERTOPSVERSION=1.0.953
@@ -15,7 +17,9 @@ RUN wget -c https://github.com/yudai/gotty/releases/download/v2.0.0-alpha.3/gott
 
 COPY ./profile.ps1 /root/.config/powershell/Microsoft.PowerShell_profile.ps1
 
-RUN pwsh -Command Set-PowerCLIConfiguration -ParticipateInCEIP $false
+COPY ./firstrun.sh /
+
+RUN ./firstrun.sh
 
 WORKDIR /zertoshell
 
