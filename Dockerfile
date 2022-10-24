@@ -1,7 +1,5 @@
-MAINTAINER justin@jpaul.me
-
 FROM mcr.microsoft.com/powershell:ubuntu-22.04
-
+MAINTAINER justin@jpaul.me
 ENV ZERTOPSVERSION=1.0.953
 
 RUN apt-get update; apt-get upgrade -y; apt-get install nano curl wget tini -y
