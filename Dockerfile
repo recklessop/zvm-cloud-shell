@@ -5,7 +5,7 @@ ENV ZERTOPSVERSION=1.0.953
 RUN apt-get update; apt-get upgrade -y; apt-get install nano curl wget tini -y
 
 COPY ./entrypoint.sh /
-COPY ./powercli.ps1 /
+COPY ./profile.ps1 /root/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 WORKDIR /
 
