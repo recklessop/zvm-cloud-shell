@@ -1,3 +1,5 @@
+Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false
+
 Import-Module VMware.PowerCLI.VCenter
 Import-Module VMware.CloudServices
 Import-Module VMware.Sdk.vSphere.vCenter.Identity
