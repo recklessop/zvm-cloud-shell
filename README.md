@@ -35,7 +35,7 @@
   <h3 align="center">ZVM Cloud Shell</h3>
 
   <p align="center">
-    An awesome docker based PowerShell platform with Zerto PowerShell module preinstalled!
+    An awesome docker based PowerShell platform with Zerto PowerShell module and VMware PowerCLI preinstalled!
     <br />
     <a href="https://github.com/recklessop/zvm-cloud-shell"><strong>Explore the docs »</strong></a>
     <br />
