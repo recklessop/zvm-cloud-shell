@@ -17,6 +17,8 @@ COPY ./profile.ps1 /root/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 COPY ./firstrun.sh /
 
+RUN chmod 755 ./firstrun.sh
+
 RUN ./firstrun.sh
 
 WORKDIR /zertoshell
