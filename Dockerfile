@@ -15,6 +15,8 @@ RUN wget -c https://github.com/yudai/gotty/releases/download/v2.0.0-alpha.3/gott
 
 COPY ./profile.ps1 /root/.config/powershell/Microsoft.PowerShell_profile.ps1
 
+RUN pwsh -Command Set-PowerCLIConfiguration -ParticipateInCEIP $false
+
 WORKDIR /zertoshell
 
 EXPOSE 8080
