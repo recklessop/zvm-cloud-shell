@@ -1,5 +1,3 @@
-Set-PowerCLIConfiguration -Scope User -ParticipateInCEIP $false
-
 Import-Module VMware.PowerCLI.VCenter
 Import-Module VMware.CloudServices
 Import-Module VMware.Sdk.vSphere.vCenter.Identity
@@ -10,7 +8,6 @@ Import-Module VMware.PowerCLI.Sdk
 Import-Module VMware.Sdk.vSphere.vCenter.NamespaceManagement
 Import-Module VMware.PowerCLI.Sdk.Types
 Import-Module VMware.Sdk.vSphere.vCenter.Namespaces
-Import-Module VMware.PowerCLI.VCenter
 Import-Module VMware.Sdk.vSphere.vCenter.OVF
 Import-Module VMware.PowerCLI.VCenter.Types.ApplianceService
 Import-Module VMware.Sdk.vSphere.vCenter.Services
